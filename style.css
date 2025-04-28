@@ -1,4 +1,4 @@
-html{
+html, body{
     font-family: fantasy, Helvetica, sans-serif;/*chooses font*/
     font-size: 80px;
     font-style:oblique;
@@ -23,7 +23,12 @@ html{
 
 }
 
+canvas{
+    display:block;
+    position:relative;
+    z-index:30;
 
+}
 
 .bigtext{
     color:aquamarine;
