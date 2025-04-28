@@ -1,0 +1,50 @@
+html{
+    font-family: fantasy, Helvetica, sans-serif;/*chooses font*/
+    font-size: 80px;
+    font-style:oblique;
+    background-image: url(tapestry.JPG);
+    /*border: 80px dashed rgb(255, 77, 0);*/
+
+
+}
+
+.Pond{
+    position:relative;
+    top:300vh;
+    left:150vh;
+
+
+}
+
+.gif{
+    position:relative;
+    top: 150vh;
+    left: 40vh;
+
+}
+
+
+
+.bigtext{
+    color:aquamarine;
+    position:relative;
+    top:5vh;
+    opacity:.4;
+    z-index:2;
+    font-size:300px;
+    /*outline-style: groove;*/
+}
+
+.bigtext2{
+    position:relative;
+    top:80vw;
+    left:48vw;
+    /*transform: rotate(90deg);*/
+
+}
+
+.bigtext3{
+    position:relative;
+    top:500vw;
+    transform: rotate(180deg);
+}
