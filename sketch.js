@@ -6,11 +6,10 @@ function preload() {
   img1 = loadImage("Background.png");
   img2 = loadImage("Trees.png");
   img3 = loadImage("Ground.png");
-  
+  bgMusic = loadSound("Tapestry_mixdown.mp3");
 }
 
 function setup() {
-  bgMusic = loadSound("Tapestry_mixdown.mp3");
   createCanvas(1000, 800);
   imageMode(CENTER);
   noStroke();
