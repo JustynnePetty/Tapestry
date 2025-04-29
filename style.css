@@ -1,33 +1,40 @@
 html, body{
-    font-family: fantasy, Helvetica, sans-serif;/*chooses font*/
-    font-size: 80px;
-    font-style:oblique;
     background-image: url(tapestry.JPG);
     /*border: 80px dashed rgb(255, 77, 0);*/
-
-
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    color:bisque;
 }
 
-.Pond{
-    position:relative;
-    top:300vh;
-    left:150vh;
-
-
-}
-
-.gif{
-    position:relative;
-    z-index: 3;
-    top: 150vh;
-    left:40vw;
-
-}
 
 canvas{
     display:block;
     position:relative;
-    top: 5vh;
+    top:-175vh;
+    left: 11.2vw;
+    z-index:1;
+
+
 
 }
+
+.Wave{
+    position:relative;
+    z-index: 2;
+    top: 50vh;
+    left:40vw;
+
+
+}
+
+
+.Fox{
+    position:relative;
+    z-index: 3;
+    top: 58.5vh;
+    left:40vw;
+
+}
+
 

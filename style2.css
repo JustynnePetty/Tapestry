@@ -1,0 +1,60 @@
+html, body{
+    /*border: 80px dashed rgb(255, 77, 0);*/
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    color:bisque;
+    background-color: darkcyan;
+}
+
+
+.image-container{
+    position: relative;
+    z-index: 1;
+}
+
+.text-overlay{
+    position:absolute;
+    z-index: 3;
+    color:brown;
+}
+
+.image2{
+    position:absolute;
+    z-index:4;
+    top: 600px;
+    right: 100px;
+    color:black
+}
+
+.image3{
+    position:absolute;
+    z-index:4;
+    top: 1000px;
+    color:brown;
+}
+
+.image4{
+    position:absolute;
+    z-index:4;
+    top: 1700px;
+    right: 100px;
+    color:black;
+}
+
+.gif{
+   position: relative;
+   top:-800px;
+   
+   
+    z-index: 2;
+}
+
+.Pond{
+    position: relative;
+    z-index:1;
+}
+
+.Fish{
+    position: relative;
+}

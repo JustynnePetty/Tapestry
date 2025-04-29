@@ -10,8 +10,8 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(1000, 800);
-  imageMode(CENTER);
+  createCanvas(1300, 2000);
+  /*imageMode(CENTER);*/
   noStroke();
   bgMusic.loop(); 
   bgMusic.setVolume(0.5);
@@ -19,9 +19,9 @@ function setup() {
 
 function draw() {
   background(0); 
-  image(img1, width / 2, height / 2, 1000, 800); // Background
-  image(img2, width / 2, 600, 1000, 2000);       // Trees
-  image(img3, width / 2, 700, 1500, 800);        // Ground
+  image(img1, 0, 0, 1300, 2000); // Background
+  image(img2, 0, 0, 1300, 2000);       // Trees
+  image(img3, 0, 0, 1300, 2000);        // Ground
 }
 
 function mousePressed() {
