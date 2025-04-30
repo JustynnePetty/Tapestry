@@ -11,8 +11,8 @@ html, body{
 canvas{
     display:block;
     position:relative;
-    bottom:10vh;
-    left: 15vw;
+    top:13vh;
+    left: 14vw;
     z-index:1;
 
 }
