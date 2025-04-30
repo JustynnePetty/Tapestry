@@ -12,6 +12,7 @@ canvas{
     display:block;
     position:absolute;
     top:33vh;
+    bottom:33vh;
     left: 14vw;
     z-index:1;
 
@@ -30,7 +31,7 @@ canvas{
 .Fox{
     position:relative;
     z-index: 3;
-    top: 78.5vh;
+    top: 85.5vh;
     left:16vw;
 
 }
