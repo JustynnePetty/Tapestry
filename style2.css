@@ -34,6 +34,17 @@ html, body{
     color:brown;
 }
 
+canvas{
+    display:block;
+    position:relative;
+    top:-175vh;
+    left: 11.2vw;
+    z-index:1;
+
+
+
+}
+
 .image4{
     position:absolute;
     z-index:4;
@@ -57,4 +68,5 @@ html, body{
 
 .Fish{
     position: relative;
+    z-index: 2;
 }
