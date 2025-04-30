@@ -10,8 +10,8 @@ html, body{
 
 canvas{
     display:block;
-    position:relative;
-    top:1vh;
+    position:absolute;
+    top:-200vh;
     left: 14vw;
     z-index:1;
 
